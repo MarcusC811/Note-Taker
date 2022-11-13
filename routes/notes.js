@@ -1,9 +1,9 @@
 const notes = require('express').Router();
 const path = require('path');
-const { readAndAppend, readFromFile } = require('./fsUtils');
+// const { readAndAppend, readFromFile } = require('./fsUtils');
 
 notes.post('/notes', (req, res) => {
-  console.log(req.body)
+  res.send('../db/db.json')
 
   // const newNote = {
 
