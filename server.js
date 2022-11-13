@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 
-const notes = require('./public/assets/routes/notes');
+const notes = require('./routes/notes');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
